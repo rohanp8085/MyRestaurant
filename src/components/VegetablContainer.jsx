@@ -13,7 +13,7 @@ import sahipaneer from '../assets/vegitables/sahipaneer.png'
 
 const VegetablContainer = () => {
 
-    const [vegetable , setVegetable] = useState( [
+    const [vegetable ] = useState( [
         { 
           id : crypto.randomUUID(),
          title : "Aloo Gobi ",

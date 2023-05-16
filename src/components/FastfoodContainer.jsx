@@ -11,7 +11,7 @@ import milkshakes from '../assets/burgers/milkshakes.png'
 import pizza from '../assets/burgers/pizza.png'
 import sendwich from '../assets/burgers/sendwich.png'
 const FastfoodContainer = () => {
-    const [fastfood , setFastfood] = useState( [
+    const [fastfood ] = useState( [
         { 
           id : crypto.randomUUID(),
          title : "Cheese burger ",
