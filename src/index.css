@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:  1px solid red; */
+    font-family: 'Poppins', sans-serif;
+}
+#home{
+    background-color: rgb(251, 251, 251);
+}
+a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    
+}
+#cart-btn{
+    background-color: rgb(246, 123, 8);
+    transition: all ease-in-out.1s;
+}
+#cart-btn:hover{
+    transform: scale(110%);
+    background-color: orangered;
+}
+.image-sec{
+
+    transition: all ease-in-out.2s;
+}
+.image-sec:hover{
+    transform: scale(130%);
+}
+
+.container{
+    margin-left: 30px;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: rgb(227, 229, 231); */
+    /* width: 84%; */
+
+}
+
+
+
+.city-text{
+    color: rgb(231, 87, 9);
+}
+
+.orderbtn{
+    background-color: rgb(248, 151, 5);
+    color: rgb(17, 17, 16);
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 28px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.orderbtn:hover{
+    background-color: rgb(240, 96, 7);
+}
+.hero-image{
+    height: 80vh;
+}
+.bikebtn{
+    background-color: rgba(233, 202, 157, 0.428);
+    width: 120px;
+    color: rgb(236, 118, 45);
+    height: 30px;
+    font-weight: bold;
+    border: none;
+    font-size: 11px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bikedelivery{
+    background-color: white;
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+    margin: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.box{
+    background-color: rgb(215, 248, 215);
+}
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+   background: none;
+    padding: 10px;
+    margin: 0px 50px;
+    /* border-radius: 10px; */
+    outline: none;
+    position: relative;
+    
+}
+.cart{
+    position: absolute;
+    right: 140px;
+    top: 33px;
+    transition: all ease-in-out .2s;
+    
+    
+}
+.cart:hover{
+    transform: scale(120%);
+}
+#cartbtn{
+    position: absolute;
+    background-color: rgb(242, 19, 3);
+    border: none;
+    color: aliceblue;
+    padding: 2px 6px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 8px;
+    top: 25px;
+    right: 135px;
+    
+
+}
+#updatecart{
+    background-color: rgb(51, 50, 50);
+}
+
+.footer{
+    
+    background-color: rgb(244, 244, 244);
+}
+#contactpage{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#icon-sec{
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+   height: 38px;
+   width: 38px;
+   padding: 5px;
+    border-radius: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#pay-btn:hover{
+    background-color: rgb(57, 235, 86);
+}
+#cardtwo{
+    transition: all ease-in-out .3s;
+
+}
+#cardtwo:hover{
+    transform: scale(120%);
+    background-color: rgb(127, 172, 212);
+    
+ 
+}
+p{
+    font-size: 13px;
+
+}
+#cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-in-out.3s;
+    
+}
+#contactsec{
+    background-color: #1f1e1e;
+}
+#cool-link:hover{
+    color: rgb(242, 74, 27);
+    font-weight: bold;
+    transform: translateY(-5px);
+}
+
+#cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #f48a07;
+    transition: width .3s;
+    
+}
+
+#cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+    
+}
+
+
+.about{
+    font-family: 'Marck Script', cursive;
+    color: #19b119;
+    font-size: 50px;
+}
+#righticon{
+    transition: all ease-in-out.1s;
+    /* background-color:rgb(64, 63, 63); */
+  
+
+}
+
+#righticon:hover{
+    transform: scale(130%);
+   
+    
+
+}
+
+#p{
+    transition: all ease-in-out .1s;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+
+    
+}
+#p:hover{
+    transform: scale(90%);
+}
+.animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+
+#active{
+    right: 0;
+    transition: all ease-in-out .4s;
+    
+
+    
+   
+
+}
+#cartsidebar{
+    right: -300px;
+    
+    transition: all ease-in-out .4s;
+
+}
+
+
+@-webkit-keyframes up-down{
+    0% {
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+              transform: translateY(-10px);
+    }
+}
+
+#card{
+    width: 220px;
+    transition: all ease-in-out .2s;
+}
+#card:hover{
+    transform: translateY(-5px);
+}
+
+/* spinner section */
+.square-circle-10 {
+    width:75px;
+    aspect-ratio:1;
+    --g:radial-gradient(farthest-side ,#0000 calc(95% - 2px),#0b0a0a calc(100% - 2px) 98%,#0000 101%);
+    background:var(--g),var(--g),var(--g),var(--g),var(--g),var(--g),var(--g),var(--g);
+    background-size:15px 15px;
+    background-repeat:no-repeat;
+    animation:sc10 1s infinite alternate linear;
+    
+  }
+  @keyframes sc10 {
+    0%,30% {background-position:0 0,50% 0,100% 0,0 50%,100% 50%,0 100%,50% 100%,100% 100%}
+    70%,100% {background-position:15% 15%,50% 0,85% 15%,0 50%,100% 50%,15% 85%,50% 100%,85% 85%}
+  }
+
+@media(max-width:768px){
+
+    .input{
+       display: none;
+    }
+    .cart{
+        right: 35px;
+       
+    }
+    .cartbtn{
+        right: 5px;
+    }
+    .hero-image{
+        height: 40vh;
+    }
+    #home{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+       
+    }
+    .container{
+        background-color: black;
+        color: white;
+        margin-left: 0;
+       
+    }
+    .bikebtn{
+        background-color: white;
+    }
+    #card{
+         width: 270px;
+        height: 140px;
+        padding: 5px;
+        
+    }
+    #cooked-sec{
+        flex-direction: column;
+        display: flex;
+        height: 100vh;
+       
+    }
+    #cookedtext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #h3{
+        font-size: 40px;
+        text-align: center;
+    }
+    #cooked-img{
+        height: 400px;
+        width: 400px;
+    }
+    .special-sec{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       min-height: 160vh;
+        
+        
+    }
+    #dish-sec{
+        min-height: 190vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    #food-text{
+        font-size: 35px;
+    }
+    #navbar{
+        padding: 0;
+        
+    }
+    .footer{
+        flex-direction: column;
+        background-color: transparent;
+        
+       
+    }
+    #ul{
+        flex-wrap: wrap;
+        width: 350px;
+    }
+   
+    .cart{
+        position: absolute;
+        right: 60px;
+        top: 17px;
+        transition: all ease-in-out .2s;
+    }
+    #cartbtn{
+        position: absolute;
+        top: 12px;
+        right: 55px;
+    }
+    #aboutimg{
+        flex-direction: column;
+        height: 80vh;
+    
+    }
+    #fruitimg{
+        width: 350px;
+    }
+    #about-text{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:center;
+        
+    }
+    #contact-sec{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+       
+        
+    }
+    #contactpage{
+        padding-left: 0;
+        width: 350px;
+        padding: 10px;
+        margin-top: 100px;
+        
+        
+    }
+    #yellowsec{
+        display: none;
+    }
+    #contactus{
+        text-align: center;
+        margin: 0;
+    }
+
+    #p{
+        text-align: center;
+    }
+    
+    
+}
