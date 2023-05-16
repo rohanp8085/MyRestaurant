@@ -4,14 +4,13 @@ import bike from '../assets/delivery.png'
 import { Box ,Card,CardMedia,Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
 import Typewriter from 'typewriter-effect'
-import salad from '../assets/salad.png'
-import burger2 from '../assets/burger2.png'
-import kadai from '../assets/kadai.png'
+
 import cooked from '../assets/cooked.png'
 import { CheckBox, Fastfood } from '@mui/icons-material'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import SpecialDish from '../components/specialDish'
 
 
 
@@ -54,33 +53,7 @@ const Home = () => {
         </Box>
              
 
-        <Box id='dish-sec' width={"100%"} height={"100vh"} sx={{display:"flex" ,alignItems:"center" , justifyContent:"space-between" ,flexDirection :"column"}}>
-           <Box>
-           <Typography variant='h4' fontSize={40} fontWeight={"bold"}>Our Special Dish</Typography>
-            <Typography textAlign={"center"} m={1} sx={{color:"gray"}}>Mode with premium ingredients.</Typography>
-            <hr style={{width:"100%", marginBottom:20}}  ></hr>
-           </Box>
-           <Box className='special-sec animated' sx={{ width :"90%", display:"flex" ,alignItems:"center" , justifyContent:"space-between" }}>
-           <Card  id='cardtwo' sx={{height:"350px", width:"250px" , p :1, borderRadius: 4,display:"flex" , alignItems:"center" , justifyContent:"space-evenly", flexDirection:"column"}}>
-           <CardMedia   sx={{ height: 170 ,width: "100%" }}image={salad}/>
-           <Typography variant='h4' fontWeight={550} fontSize={26}>Green Salad</Typography>
-           <Typography variant='p' fontWeight={550} fontSize={14} textAlign={"center"}>A green salad filled with cabbage,<br/> mustrad greens, and added chicken <br/>pieces for a more delicious,</Typography>
-           </Card>
-
-           <Card id='cardtwo' sx={{height:"350px", width:"250px" , p :1, borderRadius: 4,display:"flex" , alignItems:"center" , justifyContent:"space-evenly", flexDirection:"column"}}>
-           <CardMedia   sx={{ height: 170 ,width: "100%" }}image={burger2}/>
-           <Typography variant='h4' fontWeight={550} fontSize={26}>Burger</Typography>
-           <Typography variant='p' fontWeight={550} fontSize={14} textAlign={"center"}>Burgers are a type of sandwich made with a ground meat patty  on a bun with various toppings such as lettuce </Typography>
-           </Card>
-
-           <Card id='cardtwo' sx={{height:"350px", width:"250px" , p :1, borderRadius: 4,display:"flex" , alignItems:"center" , justifyContent:"space-evenly", flexDirection:"column"}}>
-           <CardMedia   sx={{ height: 170 ,width: "100%" }}image={kadai}/>
-           <Typography variant='h4' fontWeight={550} fontSize={26}>Vegetables</Typography>
-           <Typography variant='p' fontWeight={550} fontSize={14} textAlign={"center"}>"Fuel Your Body with the Power of Plants: Embrace the Colorful World of Vegetables!"</Typography>
-           </Card>
-           
-           </Box>
-        </Box>
+        <SpecialDish/>
          
         <Box  sx={{height:"100vh",display:"flex" , alignItems:"center", justifyContent:"center"}}>
              <Box id='cooked-sec' sx={{ width:"90%" ,display:"flex", alignItems:"center", justifyContent:"space-between"}}>
