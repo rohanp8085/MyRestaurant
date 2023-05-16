@@ -15,6 +15,7 @@ const CartContainer = () => {
     const showSidebar = () => setSidebar(!sidebar)
 
     const {cart,totalAmount,clearCart} = useContext(CartContext)
+    
     const Shipingcharges = 40
 
     
@@ -24,8 +25,7 @@ const CartContainer = () => {
     if(cart.length === 0){
         return(
             <>
-            <ShoppingCart className='cart' onClick={showSidebar}/><button id='cartbtn' onClick={showSidebar}
-             >{cart.length} </button>
+            <ShoppingCart className='cart' onClick={showSidebar}/><button id='cartbtn' onClick={showSidebar}>{cart.length} </button>
              <Box
      zIndex={1} id={sidebar ? 'cartsidebar' :  '  active'}
        bgcolor={"white"}
