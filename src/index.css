@@ -394,14 +394,14 @@ p{
    
     .cart{
         position: absolute;
-        right: 53px;
+        right: 48px;
         top: 17px;
         transition: all ease-in-out .2s;
     }
     #cartbtn{
         position: absolute;
         top: 12px;
-        right: 46px;
+        right: 42px;
     }
     #aboutimg{
         flex-direction: column;
