@@ -13,7 +13,7 @@ import orange from '../assets/drinks/orange.png'
 
 const DrinkContainer = () => {
 
-    const [Drink , setDrink] = useState( [
+    const [Drink] = useState( [
         { 
           id : crypto.randomUUID(),
          title : "Coca Cola ",

@@ -11,7 +11,7 @@ import CartContext from '../Context/CartContext';
 const VegItem = ({vegitems}) => {
 
  
- console.log(vegitems);
+ 
   
  
 
